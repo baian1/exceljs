@@ -1838,6 +1838,11 @@ export interface TableColumnProperties {
 	  * Optional formula for custom functions
 	  */
 	totalsRowFormula?: string;
+
+	/**
+	 * Styles applied to the column
+	 */
+	style?: Partial<Style>;
 }
 
 
